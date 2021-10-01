@@ -1,0 +1,25 @@
+<!-- This webapp is created by vedansh yadav -->
+<!DOCTYPE html> <!-- specifying that it is a html5 document -->
+<html lang="en"> <!-- root tag of my file -->
+<head> <!-- head tag of the website -->
+    <meta charset="UTF-8"> <!-- meta tag -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- meta viewport tag -->
+    <title>To Do programm</title> <!-- writing a title for my website -->
+    <link rel="shortcut icon" href="background.jpg" type="image/x-icon"> <!-- applying a favicon for my website to create it more attractive -->
+    <link rel="stylesheet" href="style.css"> <!-- adding my stye.css fie -->
+</head> <!-- closing the head tag -->
+<body> <!-- body tag of the website -->
+    <div class="container"> <!-- Intialising a container div  -->
+        <div id="form"> <!-- Intialising an div with form id that contain my textarea and add button -->
+            <textarea spellcheck="false" name="work" id="work" placeholder="Write Your work here"></textarea> <!-- Intialising a textarea -->
+            <button class="add-btn btn">Add Work</button> <!-- Intialising an add btn button -->
+        </div> <!-- form id div ends here -->
+        <div class="to-do-works" id="works"></div> <!-- Initialising an div in which I will show all the works -->
+    </div> <!-- container ends here -->
+    <button id="delete-btn" class="btn">Delete all works</button> <!-- Intialsing the delete button  with id delete-btn -->    
+    <button class="delete-btn btn">Delete any one work</button>  <!-- Intialising an delete button that take index of an work need to be delete with class delete-btn -->
+</body> <!-- closing our body tag -->
+<script src="jquery.js"></script> <!-- adding jquery file -->
+<script src="script.js"></script> <!-- adding my script.js file -->
+</html> <!-- closing our html file -->

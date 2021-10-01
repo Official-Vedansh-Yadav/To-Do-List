@@ -1,0 +1,158 @@
+/* This webapp is created by vedansh yadav */
+
+
+/* reseting the margin and padding universioly */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* styling the body  */
+body{
+    background: url(background.jpg); /* This is the background for my webpage body you can take any background */
+    background-size: cover;
+    color: white;
+}
+
+/* styling the container */
+.container{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* styling the work textarea  */
+#work{
+    width: 50vw;
+    padding: 2px;
+    height: 40px;
+    resize: none;
+    margin-right: 10px;
+    /* border-radius: 10px; */
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    background: rgb(95 208 151 / 29%);
+    color: white;
+}
+
+/* what will happen when we focus on the work textarea */
+#work:focus{
+    outline: none;
+    border: 5px solid rgb(18, 162, 245);
+}
+
+/* styling the div with form id  */
+#form{
+    display: flex;
+    align-items: center;
+}
+
+/* Styling the div where we show the works */
+#works{
+    width: 728px;
+    /* align-self: unset; */
+    /* margin-left: ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* styling all the elements with btn class in the document */
+.btn{
+    height: 40px;
+    padding: 10px;
+}
+
+/* styling the delete button with delete-btn id */
+#delete-btn{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+
+/* styling the delete button with delete-btn id */
+.delete-btn{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+/* Stylong that is taken from the codepen  */
+.box-content:first-of-type{
+    margin-top: 20px;
+}
+
+.box-content{
+    /* background: none repeat scroll 0 0 #FFFFFF; */
+    /* color: #000; */
+    /* background-color: #FFFFFF; */
+    /* background: rgb(255 255 255 / 30%);
+    color: white;
+    padding: 25px 55px 45px 55px;
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    margin-left: -20px; */
+    font-family:  'Yomogi', cursive;
+    width: 58vw;
+    min-height: 60px;
+    padding: 10px;
+    background: rgb(255 255 255 / 30%); /* This is for my personal use */
+    /* background: rgb(255, 253, 253); */ /* This is for youtube tutorials */
+    border-radius: 15px;
+    margin-bottom: 10px;
+    color: rgb(255, 0, 0);
+}
+
+
+
+.box-content:last-of-type{
+    margin-bottom: 0%;
+}
+/* .box-4:after {
+    border-radius: 0 0 50% 50% / 0 0 20px 20px;
+    bottom: 0;
+    box-shadow: 0 10px 10px rgba(231, 231, 231, 0.5);
+    content: "";
+    height: 20px;
+    left: 10px;
+    position: absolute;
+    right: 10px;
+} */
+
+.box-content p{
+    display: inline;
+    text-align: justify;
+}
+
+/* styling of the completed works */
+.completed{
+    /* background: #32ff7e; */
+    background: #575fcf;
+    color: black;
+}
+
+
+/* success bg color hex code :- #32ff7e
+
+Font-family :-   font-family:  'Yomogi', cursive;
+
+ */
+
+ /* Styling the delete icon */
+ .delete-icon{
+     width: 50px;
+     height: 80%;
+     float: right;
+     display: none;
+     padding: 0px 10px;
+ }
+
+ .box-content:hover > .delete-icon{
+     display: inline;
+ }
